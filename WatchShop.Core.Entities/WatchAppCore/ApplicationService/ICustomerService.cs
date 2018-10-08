@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace WatchShop.Core.Entity
+namespace WatchAppCore.ApplicationService
 {
-    public class Watch
+    interface ICustomerService
     {
     }
 }
