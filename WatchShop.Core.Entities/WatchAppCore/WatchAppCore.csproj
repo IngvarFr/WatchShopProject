@@ -4,4 +4,8 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\WatchShop.Core.Entity\WatchShop.Core.Entity.csproj" />
+  </ItemGroup>
+
 </Project>
