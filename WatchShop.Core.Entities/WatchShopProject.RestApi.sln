@@ -5,11 +5,15 @@ VisualStudioVersion = 15.0.28010.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WatchShopProject.RestApi", "..\WatchShopProject.RestApi\WatchShopProject.RestApi.csproj", "{84904F9B-81E9-4395-87B5-7E6B69B21B87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WatchShop.Core.Entity", "..\Core\WatchShop.Core.Entity\WatchShop.Core.Entity.csproj", "{393F9BAF-988B-4885-9517-5A386234ED90}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WatchShop.Core.Entity", "..\Core\WatchShop.Core.Entity\WatchShop.Core.Entity.csproj", "{393F9BAF-988B-4885-9517-5A386234ED90}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{18DA94B1-1639-4E8B-AAC6-1D3A86C7FF07}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WatchAppCore", "WatchAppCore\WatchAppCore.csproj", "{A5A47609-9FE9-4222-9FF7-13B969116D08}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WatchAppCore", "WatchAppCore\WatchAppCore.csproj", "{A5A47609-9FE9-4222-9FF7-13B969116D08}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{7D540324-630F-4C1C-8EAF-50BF5E7ABBD2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{93F795E1-610D-4763-9E0D-598272D5577F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -34,7 +38,9 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{84904F9B-81E9-4395-87B5-7E6B69B21B87} = {7D540324-630F-4C1C-8EAF-50BF5E7ABBD2}
 		{393F9BAF-988B-4885-9517-5A386234ED90} = {18DA94B1-1639-4E8B-AAC6-1D3A86C7FF07}
+		{A5A47609-9FE9-4222-9FF7-13B969116D08} = {18DA94B1-1639-4E8B-AAC6-1D3A86C7FF07}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {95036521-E911-4DAF-A7CF-9B377BA14DAC}
